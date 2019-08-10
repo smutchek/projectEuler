@@ -7,7 +7,7 @@ public class euler2{
         int lastNum = 0;
         int counter = 1;
         while(lastNum <= 4000000){
-                lastNum = fibonacci.get(i-1) + fibonacci.get(i);
+                lastNum = fibonacci.get(counter-1) + fibonacci.get(counter);
                 fibonacci.add(lastNum);
                 counter++;
         }
